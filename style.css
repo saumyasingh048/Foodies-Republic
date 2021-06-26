@@ -1,0 +1,249 @@
+.fa-utensils{
+    color: #F54748;
+}
+
+#logo-name{
+    color: #F54748;
+}
+
+#logo-1{
+    color: yellow;
+}
+
+#logo-2{
+    color: yellow;
+}
+
+.btn-0{
+    background-color: #F54748;
+    color: #ffffff;
+    border-radius: 20px;
+}
+
+.navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.header{
+    background-image: url("header-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.header-content{
+    height: 100vh;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.6);
+    
+}
+
+.display-5 {
+    font-size: 2.3rem;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+.apt-heading{
+    font-size: 3.5rem;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+.services-fa{
+    color: #F54748;
+    cursor: pointer;
+}
+.services-fa:hover{
+    color: #f80f0f;
+}
+
+.offer{
+    background-image: url("offer.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    
+}
+
+.overlay{
+    width: 100%;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.caro-img{
+    height: 60vh;
+}
+
+#img-1{
+    background-image: url("Noodles.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 100%;
+    height: 40vh;   
+    padding: 0;
+}
+
+#img-2{
+    background-image: url("Italian Pasta.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 40vh;   
+    padding: 0;
+}
+
+#img-3{
+    background-image: url("Burger.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 100%;
+    height: 40vh;  
+    padding: 0; 
+}
+
+#img-4{
+    background-image: url("Mexican Taco.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 100%;
+    height: 40vh;  
+    padding: 0; 
+}
+
+#img-5{
+    background-image: url("Pizza.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 100%;
+    height: 40vh;  
+    padding: 0; 
+}
+
+#img-6{
+    background-image: url("Coffee.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 100%;
+    height: 40vh;  
+    padding: 0; 
+}
+
+#img-7{
+    background-image: url("dessert-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 100%;
+    height: 40vh;  
+    padding: 0; 
+}
+
+#img-8{
+    background-image: url("dessert-2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 100%;
+    height: 40vh; 
+    padding: 0;  
+}
+
+#img-9{
+    background-image: url("desert-4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 100%;
+    height: 40vh;  
+    padding: 0; 
+}
+
+.overlay-most-popular{
+    height: 40vh;
+    background-color: rgba(0, 0, 0, 0.3);
+    
+    
+}
+
+.tt-img{
+    height: 80vh;
+    
+}
+
+.tt-caption{
+    height: 80vh;
+    
+}
+
+.overlay-tt{
+    height: 80vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: relative;
+}
+
+.form-group input, .form-group textarea{
+    border-radius: 20px;
+    border: 1.5px solid #F54748;
+}
+
+.btn-submit{
+    width: 40%;
+    
+}
+
+footer{
+    background-color: black;
+    padding: 10px 0px;
+    color: aliceblue;
+}
+.footer-item{
+    font-size: 15px;
+    margin: 5px 0px;
+}
+.fab, .fas{
+    padding: 5px 8px;
+    font-size: 1.2rem;
+    color: #F54748;
+}
+.footer-item a i:hover{
+    color: #fa2d2d;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+/* Media Queries */
+@media screen and (max-device-width:576px) {
+    *{
+        text-align: center;
+    }
+    .display-4 {
+        font-size: 2.5rem;
+        font-weight: 400;
+        line-height: 1.2;
+    }
+    .form-group label, .form-group input, .form-group small, .form-group textarea{
+        text-align: left;
+        display: block;
+    }
+}
+
+@media screen and (max-device-width:280px) {
+    .navbar {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    
+}
+
+@media screen and (max-device-width: 1200px){
+    .about-us-responsive {
+        flex: 0 0 100%;
+        max-width: 100%;
+    
+    }
+    .abt-us-heading{
+        text-align: center;
+    }
+    
+}
+
